@@ -1,0 +1,29 @@
+
+.practic-margin {
+    margin-top: 40px;
+}
+
+.practic-m {
+    margin-top: 130px;
+}
+
+.practic_intro {
+    position: relative;
+    background-color: #000;
+    height: 780px;
+}
+
+.practic_intro::after {
+    content: '';
+    background: url('https://cdn5.vedomosti.ru/image/2015/5g/8vdl/original-bi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    filter: blur(10px);
+    z-index: 1;
+}

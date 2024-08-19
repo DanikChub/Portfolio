@@ -1,0 +1,260 @@
+
+body {
+    margin: 0;
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+/*intro*/
+
+.intro {
+    display: flex;
+	flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-transform: uppercase;
+    background: blue;
+    color: #000;
+    /* background: url(https://img3.akspic.ru/crops/7/4/9/7/6/167947/167947-legkovyye_avtomobili-sportkar-delorian-dms_delorian-komplektacii_avtomobilya-3840x2160.jpg)  center no-repeat;
+    -webkit-background-size: cover;
+	background-size: cover; */
+}
+.container {
+    width: 100%;
+    max-width: 1292px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.header {
+    margin-top: 57px;
+    display: flex;
+    color: #fff;
+    align-items:center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.nav__links {
+    text-decoration: none;
+    color: #fff;
+    transition: all .2s linear;
+    margin-left: 40px;
+    letter-spacing: 1.6px;
+}
+
+.nav__links:first-child {
+    margin-left: 0;
+}
+
+.number {
+    /* margin-right: 80px; */
+    margin-left: 543px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.number:hover,
+.nav__links:hover {
+    color: rgb(236, 47, 138);
+}
+
+.title__all {
+    margin-top: 216px;
+}
+.ontitle {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.title {
+    color: #fff;
+    font-size: 100px;
+}
+.intro__btn {
+    padding: 18px 63px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    margin-top: 37px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .2s linear;
+}
+
+.intro__btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* about */
+
+.about {
+    margin-top: 113px;
+    text-transform: uppercase;
+}
+
+.about__title {
+    font-size: 50px;
+}
+.about__block {
+    display: inline-block;
+    width: 564px;
+    
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.about__subtitle {
+    font-size: 25px;
+}
+
+.about__text {
+    text-transform: none;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about__img2 {
+    margin-top: 67px;
+}
+
+.about__img__a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+.about__img {
+    transition: all .2s linear;
+}
+
+.about__img:hover {
+    transform: scale(1.05);
+}
+
+/* footer */
+
+.footer {
+    margin-top: 114px;
+    margin-bottom: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.footer__text:last-child {
+    margin-left: 55px;
+}
+
+@media (max-width: 1230px) {
+    /*intro*/
+    .container {
+        padding: 0 100px;
+    }
+    .number {
+        margin-left: 400px;
+    }
+
+    /*nav*/
+
+    .nav {
+        font-size: 14px;
+    }
+
+    .number {
+        font-size: 14px;
+    }
+
+    .ontitle {
+        font-size: 25px;
+    }
+    .title {
+        font-size: 85px;
+    }
+
+    .intro__btn {
+        padding: 16px 60px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1108px) {
+    .number {
+        display: none;
+    }
+
+    .nav__links {
+        margin-left: 100px;
+    }
+
+    .nav {
+        margin-left: 200px;
+    }
+
+    .title__all {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 991px) {
+    .title__all {
+        text-align: center;
+        margin-top: 140px;
+    }
+
+    .intro__btn_m {
+        text-align: center;
+    }
+    
+    .nav {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 826px) { 
+    .nav {
+        display: none;
+    }
+
+    .ontitle {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+    .intro__btn {
+        font-size: 12px;
+    }
+}
+
+
+
+
+

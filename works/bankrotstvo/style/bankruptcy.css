@@ -1,0 +1,330 @@
+:root {
+    --main-bg-color: #fff;
+    --second-bg-color: #F0F0F0;
+    --main-text-color: #000;
+    --main-text-selection-color: #5fbbe6;
+    --main-bg-selection-color: #5fbbe6;
+    --second-text-color: #fff;
+}
+
+.bankruptcy_intro {
+    position: relative;
+    background-color: #000;
+    height: 780px;
+}
+
+.bankruptcy_intro::after {
+    content: '';
+    background: url('https://media.istockphoto.com/id/956243400/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BD%D0%BE%D0%BC-%D0%B0%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%BC%D0%B5%D0%BD-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-%D0%B8%D0%BB%D0%B8-%D1%87%D0%B8%D1%82%D0%B0%D0%B5%D1%82-%D0%BA%D0%BD%D0%B8%D0%B3%D1%83-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0-%D0%B2-%D0%BE%D1%84%D0%B8%D1%81%D0%B5-%D0%BD%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%BC-%D0%BC%D0%B5%D1%81%D1%82%D0%B5-%D0%B4%D0%BB%D1%8F.jpg?s=612x612&w=0&k=20&c=tmuwY_RRedwyR16whbKKDMDR6CZhrKHkWabJFi11xrc=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.header {
+    border-bottom: 1px solid var(--second-bg-color);
+    box-shadow: 0px 2px 8px var(--second-bg-color);
+}
+
+
+.bankruptcy_intro_inner {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.bankruptcy_intro_title {
+    padding-top: 150px;
+    margin-top: 0;
+    color: var(--second-text-color);
+    font-size: 52px;
+}
+
+.bankruptcy_intro_subtitle {
+    color: var(--second-text-color);
+}
+.bankruptcy_intro_items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bankruptcy_intro_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bankruptcy_intro_item_logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--second-text-color);
+}
+.bankruptcy_intro_item_title {
+    margin-top: 20px;
+    font-size: 20px;
+    color: var(--second-text-color);
+}
+.bankruptcy_intro_button {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/*WhatIs*/
+
+.whatIs {
+    text-align: center;
+    font-size: 28px;
+    color: var(--main-text-color)
+}
+
+.whatIs .blue {
+    color: var(--main-text-selection-color);
+    font-weight: bold;
+}
+
+.whatIs .bold {
+    color: var(--main-text-color);
+    font-weight: bold;
+}
+
+.whatHr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*dolgs*/
+
+
+
+.dolgs_title {
+    margin-top: 200px;
+}
+.dolgs_items {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.dolgs_item {
+    display: flex;
+    width: 50%;
+    padding: 0 50px;
+    align-items: start;
+    margin-top: 100px;
+}
+.dolgs_item_logo {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.dolgs_item_content {
+   
+}
+.dolgs_item_content_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.dolgs_item_subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*whos*/
+
+.whos {
+}
+
+.whos_inner {
+}
+.whos_title {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 250px;
+}
+
+.whos_items {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.whos_item {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 50px;
+    border: 4px solid #53B769;
+    border-radius: 5px;
+}
+.whos_item_titles {
+    display: flex;
+}
+.whos_item_subtitle {
+    color: #53B769;
+    font-weight: bold;
+    font-size: 18px;
+}
+.whos_item_title {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.whos_item_content {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.red {
+    border: 4px solid rgb(253, 78, 78);
+}
+
+.red-text {
+    color:rgb(253, 78, 78);
+}
+
+/*think*/
+
+.bankruptcy_think {
+    margin-top: 150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bankruptcy_think_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bankruptcy_think_button {
+    width: 200px;
+    margin-left: 200px;
+}
+
+/*stages*/
+
+.gray {
+    border: 4px solid var(--second-bg-color);
+}
+
+.gray-text {
+    color:var(--second-bg-color);
+}
+
+/*tarif*/
+
+
+.tarif_items {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.tarif_item {
+    width: 31%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+}
+
+.tarif_item p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.tarif_item .bold {
+    font-weight: bold;
+}
+
+.tarif_item p .bold {
+    font-weight: bold;
+}
+
+
+.tarif_item_titles {
+    background-color: var(--main-bg-selection-color);
+    border-radius: 5px 5px 0 0;
+    height: 170px;
+    padding: 20px;
+}
+.tarif_item_title {
+    color: var(--second-bg-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.tarif_hr {
+    width: 90%;
+    border: 0;
+    background-color: #fff;
+    position: static;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tarif_item_subtitle {
+    color: var(--second-bg-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tarif_button {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/*QUESTIONS*/
+
+.questions {
+    margin-top: 250px;
+}
+
+.question_content {
+    display: none;
+}
+
+.question.active .question_content {
+    display: block;
+}
+
+.question {
+    padding: 25px;
+    background-color: var(--second-bg-color);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+
+.questions_inner {
+    margin-top: 60px;
+}
+
+.question_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question_content {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/**/
+
+.bg-white {
+    background-color: var(--main-bg-color);
+}
+
+.bg-gray {
+    background-color: var(--second-bg-color);
+}

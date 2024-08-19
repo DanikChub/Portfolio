@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav_link.active {
+    color: rgba(147, 66, 202, 1);
+}
+
+.intro {
+    height: 100vh;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    display: flex;
+    background-color: #0c0c10;
+    border-radius: 0 0 10px 10px;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: .2s linear;
+    
+}
+
+.nav.active {
+    top: 0;
+    
+}
+
+.nav_links {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.nav_link:hover {
+    color: rgb(147, 66, 202);
+}
+
+.nav_link:hover ~ .intro_img {
+    transform: scale(2);
+}
+
+.intro_inner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.intro_prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    grid-gap:50px;
+    width: 50%;
+}
+
+.intro_price {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px -2px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+
+
+.intro_form {
+    color: #000;
+    text-align: center;
+    
+    padding: 25px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px -2px rgba(34, 60, 80, 0.2);
+    width: 20%;
+    min-width: 400px;
+}
+
+.intro_input {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    /* box-shadow: -5px 4px 8px 0px rgba(34, 60, 80, 0.2) inset; */
+}
+
+.intro_input::placeholder {
+    padding: 12px 16px;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.intro_input:focus {
+    outline: none;
+    color: #000;
+    
+}
+
+.intro_button {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 12px 16px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.intro_button:hover {
+    background-color: rgba(255, 40, 40, 1);
+    border:1px solid vrgba(255, 40, 40, 1);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(3deg);
+    }
+    40% {
+        transform: rotate(-3deg);
+    }
+    60% {
+        transform: rotate(3deg);
+    }
+    70% {
+        transform: rotate(-3deg);
+    }
+    80% {
+        transform: rotate(3deg);
+    }
+    85% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.intro_price:hover {
+    background-color: #000;
+    color: #fff;
+    animation: anim .2s ease-in-out;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.text {
+    text-align:left;
+}
+
+
+
+.block {
+    position: absolute;
+    bottom: 15px;
+    left: -250px;
+
+    opacity: 0;
+    height: 500px;
+    width: 250px;
+
+    color: #000;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px -2px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: .2s linear;
+    transition-delay: .5s;
+    
+}
+
+.block.active {
+    opacity: 1;
+    left: 15px
+}
+
+
+.part {
+    position: absolute;
+    top: 0;
+    right: -600px;
+    width: 600px;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 200px;
+    color: #000;
+    transition: .2s ease-in-out;
+    z-index: 100000;
+}
+
+.part.active {
+    right: 0;
+}
+
