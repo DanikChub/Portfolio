@@ -1,0 +1,94 @@
+{
+    "works_items": [
+        {
+            "id": "0",
+            "price": "15000",
+            "work_time": "20ч",
+            "description": "Создавался для компании, занимающейся банкротством. <br> Это многостраницчный сайт с реализацией отзывов на node.js + express, и стандартной версткой на ванильном html, css и js",
+            "complexity": "4",
+            "burse": "fl.ru",
+            "tools": "#express #node.js #js vanilla",
+            "title": "Сайт юридической компании",
+            "image_url": "./images/portfolio/bankrotstvo.jpg",
+            "video_url": "./videos/portfolio/bankrotstvo.mp4",
+            "url": "./works/bankrotstvo"
+        },
+        {
+            "id": "1",
+            "price": "4000",
+            "work_time": "8ч",
+            "description": "Создавался для небольшого фитнесс зала. На сайте присутствует калькулятор, реализованный на ванильном javascript и отсчет дней до акции. Также сделаны самодельные слайдеры",
+            "complexity": "2",
+            "burse": "Offline",
+            "tools": "#js vanilla #html #css",
+            "title": "Сайт здорового питания",
+            "image_url": "./images/portfolio/fruits.jpg",
+            "video_url": "./videos/portfolio/fruits.mp4",
+            "url": "./works/fruits"
+        },{
+            "id": "2",
+            "price": "3000",
+            "work_time": "10ч",
+            "description": "Простенький лендинг с безсерверной реализацией отправки сообщений на почту и телеграмм. Это сайт-заглушка, использовался до разработки настоящего интернет-магазина",
+            "complexity": "0",
+            "burse": "Offline",
+            "tools": "#js vanilla #html #css",
+            "title": "Лендинг автохимии",
+            "image_url": "./images/portfolio/lross.jpg",
+            "video_url": "./videos/portfolio/lross.mp4",
+            "url": "./works/lross"
+        },
+        {
+            "id": "3",
+            "price": "6000",
+            "work_time": "6ч",
+            "description": "Дизайн этой зарубежной компании взят из открытых источников и является самой первой моей самостоятельной работой. ",
+            "complexity": "3",
+            "burse": "-",
+            "tools": "#html #css #js",
+            "title": "MOGO - фотостудия",
+            "image_url": "./images/portfolio/mogo.jpg",
+            "video_url": "./videos/portfolio/mogo.mp4",
+            "url": "./works/mogo"
+        },
+        {
+            "id": "4",
+            "price": "3500",
+            "work_time": "4ч",
+            "description": "Дизайн этой зарубежной компании взят из открытых источников. Является демонстрационным проектом для портфолио и служит показателем навыков в верстке.",
+            "complexity": "2",
+            "burse": "-",
+            "tools": "#html #css #js",
+            "title": "Activbox - дизайнерское агенство",
+            "image_url": "./images/portfolio/activebox.jpg",
+            "video_url": "./videos/portfolio/activebox.mp4",
+            "url": "./works/activebox"
+        },
+        {
+            "id": "5",
+            "price": "8000",
+            "work_time": "10ч",
+            "description": "Дизайн этой зарубежной компании взят из открытых источников. Является демонстрационным проектом для портфолио и служит показателем навыков в верстке.",
+            "complexity": "3",
+            "burse": "-",
+            "tools": "#html #css #js",
+            "title": "MARICO - студия мобильной разработки",
+            "image_url": "./images/portfolio/marico.jpg",
+            "video_url": "./videos/portfolio/marico.mp4",
+            "url": "./works/marico"
+        },
+        {
+            "id": "6",
+            "price": "1000",
+            "work_time": "1ч",
+            "description": "Одна из первых работ. Одностраничник с двумя блоками без анимаций.",
+            "complexity": "0",
+            "burse": "-",
+            "tools": "#html #css",
+            "title": "Burning Man",
+            "image_url": "./images/portfolio/burning_man.jpg",
+            "video_url": "./videos/portfolio/burningMan.mp4",
+            "url": "./works/burningMan"
+        }
+    ]
+}

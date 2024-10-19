@@ -44,7 +44,14 @@ body {
     transition: .2s linear;
     
 }
-
+.nav_logo {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 30px;
+    font-size: 20px;
+    transform: translate(0, -50%);
+}
 .nav.active {
     top: 0;
     

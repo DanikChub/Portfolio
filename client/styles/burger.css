@@ -70,6 +70,7 @@
     .nav_links {
         margin-top: -70px;
         display: block;
+        width: max-content;
     }
 
     .nav_link {
